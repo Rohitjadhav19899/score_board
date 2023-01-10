@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-image: url("stadium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.score-bg {
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 155px;
+    height: 120px;
+    margin-top: -60px;
+    margin-left: 38px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+}
+
+p {
+    font-family: customFont;
+    color: white;
+    size: 10px;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 10%;
+}
+@font-face {
+    font-family: "customFont";
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+button {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+    height: 60px;
+    margin-top: 20%;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.reset {
+    margin-left: 904px;
+    margin-top: -180px;
+}
+
+
+
